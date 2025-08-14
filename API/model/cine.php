@@ -5,6 +5,7 @@ require_once './settings/db.php'; //inclusión del script de conexión
 class Directores {
     protected $db;
 
+    
     public function _construct(){
         //Dentro del constructor establecemos la instancia a la conexion y asignamos esto al atriburo db.
         $conection = new db;
